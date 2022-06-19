@@ -1,0 +1,98 @@
+.item{
+    padding: 15px;
+    transition: opacity 0.333s;
+}
+
+.item input[type=checkbox]{
+    transform: scale(2);
+}
+
+.item label{
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.efeito{
+    opacity: 0 !important;
+}
+
+.finalizado{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.573);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal .form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 10px rgba(83, 83, 83, 0.445);
+}
+
+.modal .form input{
+    font-size: 1.0em;
+    outline: none;
+    text-align: center; 
+    background-color: transparent;
+    border: 0;
+    color: rgb(139, 139, 139);        
+}
+
+.modal .form input::placeholder{
+    color:rgb(102, 102, 102);
+}
+
+.modal .form p{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.modal .form button{
+    width: 50%;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    transform: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.347);
+}
+
+.modal .form button:hover{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+.ocultar{
+    width: 50%;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    transform: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.347);
+}
+
+.ocultar a{
+    color: black;
+    text-decoration: none;
+}
+
+.ocultar:hover a{
+    color:white;
+}

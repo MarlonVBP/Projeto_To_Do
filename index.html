@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/responsive.css" media="screen and (max-width:734px)">
+    <link rel="stylesheet" href="estilo/efeitos.css">
+    <title>Atividade de Pam</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span>
+                <a href="https://github.com/MarlonVictorBezerradosPassos" target="_blank">Marlon Vicctor</a>
+            </span>
+            <nav>
+                <a href="javascript:limparStorage('EXPARCEIRAS')" class="limpar">Limpar</a>
+                <a href="javascript:exibirModal('flex')" >Adicionar</a>
+            </nav>
+        </header>
+        <main>
+            <div class="section">
+                <h1>
+                    Empresas parceiras
+                </h1>
+                <section id="parceiras" class="section">
+    
+                </section>
+            </div>
+
+            <div class="section">
+                <h1>
+                    Empresas ex-parceiras
+                </h1>
+                <section id="ex-parceiras" class="section">
+    
+                </section>
+            </div>
+
+            
+        </main>
+        <section class="modal">
+            <form class="form" onsubmit="return false">
+                <input type="text" placeholder="Digite o nome da empresa" id="empresa" maxlength="15">
+                <p>
+                <button id="btn-aliar">Aliar</button>
+                <button class="ocultar"><a href="javascript:exibirModal('none')" >fechar</a></button>
+                </p>
+            </form>
+        </section>
+
+        <footer>
+        <p>
+            Site criado por <a href="https://github.com/MarlonVictorBezerradosPassos" target="_black">Marlon Victor Bezerra dos Passos </a> 2°DS    DIV-B.
+        </p>
+        <p>
+            <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">ODS</a>
+            <a href="https://brasil.un.org/pt-br/sdgs/17" target="_blank">Tema</a>
+        </p>
+        </footer>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

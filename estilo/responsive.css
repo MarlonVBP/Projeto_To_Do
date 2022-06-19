@@ -1,0 +1,16 @@
+@media 
+main{
+    flex-direction: column;
+}
+
+.section{
+    max-height: 35vh;
+}
+
+
+@media (max-width:370px){
+h1{
+    font-size: 30px;
+}
+}
+
